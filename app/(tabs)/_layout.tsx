@@ -18,7 +18,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="(home)/index"
         options={{
-          title: 'Home',
+          title: 'Quran',
           tabBarIcon: ({ color, focused }) => (
             <TabBarIcon name={focused ? 'book' : 'book-outline'} color={color} />
           ),
